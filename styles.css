@@ -6,7 +6,7 @@
 }
 
 .hero__section {
-  background: #002ed0;
+  background: #01003b;
   padding: 0 60px;
   color: #fff;
 }
@@ -73,7 +73,7 @@
 /* Main Section */
 .main__section {
   padding: 60px 60px;
-  background: #002ed0;
+  background: #01003b;
   color: #fff;
 }
 
@@ -118,8 +118,8 @@
 }
 
 .main__img {
-  width: 420px;
-  height: 610px;
+  width: 90%;
+  height: 63%;
 }
 
 /* Media Queries */
@@ -154,7 +154,7 @@
 
 /* Services */
 .services {
-  background: #002ed0;
+  background: #01003b;
   color: #fff;
   position: relative;
 }
@@ -190,6 +190,7 @@
 
 .services__content img {
   margin-right: 50px;
+
 }
 
 .services__desc h2 {
@@ -209,7 +210,7 @@
 
 .yellow__bar {
   position: absolute;
-  background: yellow;
+  background: #dd2121;
   height: 80px;
   bottom: -40px;
   right: 0;
@@ -286,7 +287,7 @@
 
 /* Portfolio Section */
 .portfolio {
-  background: #002ed0;
+  background: #01003b;
   color: #fff;
 }
 
@@ -336,15 +337,18 @@
 
 .portfolio__projects {
   display: flex;
-  flex-direction: row;
+  flex-direction: coloumn;
+  align-items: center;
   justify-content: center;
   padding: 32px 64px;
+  gap: 30px;
+  border-radius: 20px;
 }
 
 .portfolio__projects img {
   padding: 0 8px;
-  width: 100%;
-  height: 100%;
+  width: 45%;
+  height: 45%;
 }
 
 /* Media Queries */
@@ -389,12 +393,12 @@
 .contact {
   display: flex;
   align-items: center;
-  background: #002ed0;
+  background: #01003b;
   padding: 100px 0;
 }
 
 .contact__bar {
-  background: yellow;
+  background: rgb(255, 0, 0);
   height: 80px;
   width: 68%;
   color: #000;
@@ -453,7 +457,7 @@
 }
 
 .footer {
-  background: #0030db;
+  background: #01003b;
   color: #fff;
 }
 
