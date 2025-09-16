@@ -302,7 +302,7 @@
   color: black;
   -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
   -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: #fff;
+  -webkit-text-stroke-color: #0004ff;
   margin-bottom: 32px;
 }
 
